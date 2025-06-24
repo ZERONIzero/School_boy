@@ -439,7 +439,11 @@ h1 {
 
 ul, li { 
     list-style-type: none;
-} 
+}
+
+.fade{
+    transition:opacity .15s linear
+}
 
 .dropbtn {
     background-color: transparent;
