@@ -9,7 +9,7 @@
     <link rel="icon" href="/drawable/menu-id-svg.svg" type="image/svg">
     <link rel="stylesheet" href="/style-set.css">
 </head>
-    <body>
+    <body style="width: 98%;">
         <nav class="navbar fixed-bottom" style="background-color: #21222A" id="m_nav">
             <div class="container-fluid">
                 <span class="navbar-brand">{{person}}</span>
@@ -26,16 +26,16 @@
                         </ul>
                         <br>
                         <div class="dropdown pb-4">
-                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" style="margin-left: 20px; margin-right:auto;" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropbtn" style="margin-left: 20px; margin-right:auto;" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="https://www.gravatar.com/avatar/{{name}}?d=identicon&s=1024" alt="hugenerd" width="50" height="50" class="rounded-circle">
-                                <span class="d-none d-sm-inline mx-1">{{person}}</span>
+                                <span class="d-none d-sm-inline mx-1">{{person}}🔻</span>
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-dark text-small shadow" style="margin-left: 30px;">
-                                <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <ul class="dropdown-content text-small shadow" style="margin-left: 10px;">
+                                <li><a class="" href="#">Profile</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="/logout">Sign out</a></li>
+                                <li><a class="" href="/logout">Sign out</a></li>
                             </ul>
                         </div>
                     </div>
